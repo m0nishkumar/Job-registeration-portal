@@ -1,0 +1,166 @@
+body{
+    background-color:#e5e5e5;
+    margin:0;
+  }
+  .content{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:30px;
+    border-radius:10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-width:500px;
+    background-color: white;
+    font-family: "poppins";
+    margin-bottom: 20px;
+  }
+  .search-bar-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .content img{
+    margin-top: -50px;
+    margin-left:475px;
+  }
+
+  .search-bar{
+    display: flex;
+    flex-direction: row;
+  }
+  .nav-left > h3{
+    padding-left: 10px;
+    font-family: "poppins";
+    font-weight: 900;
+  }
+  .nav-left > img{
+    padding-left: 8px;
+  }
+
+  .navbar{
+    background-color: white;
+    border-radius:10px;
+
+    position: relative;
+    top:0;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+      -webkit-box-shadow: 0 8px 6px -6px rgb(185, 171, 171);
+         -moz-box-shadow: 0 8px 6px -6px rgb(235, 228, 228);
+              box-shadow: 0 8px 6px -6px rgb(218, 215, 215);
+
+    margin-bottom: 20px;
+  
+  }
+  .showing, .preference{
+    font-family: "poppins";
+  }
+  .showing span{
+    font-weight: 900;
+  }
+  .pre-content{
+    font-family: "Trirong", serif;
+    padding-left:100px;
+    font-size:14px;
+  }
+
+  .nav-right{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+    font-family: "poppins";
+  }
+  .nav-left{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  ul > li{
+    padding: 10px;
+  }
+
+  input[type=text] {
+    width:400px;
+    height: 40px;
+    padding: 6px;
+    padding-left:30px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+
+  button {
+    padding: 11px 15px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+
+.content:hover {
+	box-shadow: 1px 1px 25px 10px rgba(255,255,255,.1);
+}
+  .top{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin-bottom: 15px;
+    color:gray;
+}
+
+.job-entire{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+.job-desc{
+    margin-bottom:15px;
+    align-self: center;
+    font-family: "Trirong", serif;
+
+}
+  
+  .bottom{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+
+  }
+  .job-location{
+    color:grey;
+  }
+
+  .job-url{
+    margin-left:300px;
+    text-decoration: none;
+  }
+  a:link {
+    text-decoration: none;
+    color:rgb(83, 82, 82);
+    font-weight: 600;
+  }
+  .job-title{
+    font-weight:700;
+    align-self: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+
+  }
+  .job-salary{
+    margin-bottom:10px;
+    align-self: center;
+    color:darkblue;
+    font-weight:800;
+  }
