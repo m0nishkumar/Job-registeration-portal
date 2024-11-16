@@ -16,7 +16,6 @@ A web-based job searching portal built with **PHP** that integrates with the **I
 - **Frontend**: HTML, CSS (to create responsive and visually appealing job search forms and results page)
 - **Backend**: PHP (for server-side logic)
 - **API Integration**: Indeed API (to retrieve job listings)
-- **Database**: MySQL (for storing user searches, job search history, etc.)
 
 ## Installation
 
@@ -27,20 +26,6 @@ A web-based job searching portal built with **PHP** that integrates with the **I
    ```
 
 2. **Set up the environment**:
-   - **Create a MySQL database**:
-     ```sql
-     CREATE DATABASE job_search;
-     ```
-   - **Import the database schema**:
-     - Locate the `database.sql` file in the project folder and import it into your database.
-   - **Configure database connection**:
-     - Open `config.php` and set the following details:
-       ```php
-       define('DB_HOST', 'localhost');
-       define('DB_USERNAME', 'your_db_username');
-       define('DB_PASSWORD', 'your_db_password');
-       define('DB_NAME', 'job_search');
-       ```
    - **Get your Indeed API key**:
      - Go to the Indeed API documentation (https://developer.indeed.com/) and get your API key.
      - Set the `INDEED_API_KEY` constant in the `config.php` file:
